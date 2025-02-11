@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        h1{
+            background-color: yellow;
+            border: 2px solid black;
+        }
+        @media (min-width:400px) and (max-width:700px){
+           h1{
+            background-color: pink;
+           }
+           div{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+           }
+        }
+        @media (max-width:500px) {
+           h1{
+            background-color: red;
+           }
+           div{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+           }
+        }
+        @media (orientation:landscape) {
+            h1{
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries Demo</h1>
+    <div></div>
+</body>
+</html>

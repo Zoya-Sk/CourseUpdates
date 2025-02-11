@@ -1,0 +1,139 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 1);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease 0.2s;
+}
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+} 
+
+ section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: blue;
+}
+div:nth-of-type(3n){
+    background-color: rgb(40, 24, 141);
+}
+
+/* transform */
+ #one{
+    transform: rotate(45deg);
+    transition: 1s ease-in;
+}
+#one:hover{
+    transform: rotate(0deg);
+}
+#two{
+    transform: scale(0.5);
+    transition: 2s ease;
+}
+#two:hover{
+    transform: scale(2);
+}
+#three{
+    transform: translateY(100px);
+    transition: 1s ease-in-out;
+}
+#three:hover{
+    transform: translateX(-100px);
+}
+#four{
+    transform: skew(50deg);
+    transition: 2s ease;
+}
+#four:hover{
+    transform: skew(0deg);
+}
+#five{
+    transition: 2s ease-in;
+}
+#five:hover{
+    transform: rotate(30deg) translate(150px);
+} 
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
+
+ .card{
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px black;
+    transition: 1s;
+}
+
+.desc{
+    padding: 0 3px 0 6px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.card:hover{
+    box-shadow: 0px 4px 28px black;
+    padding-bottom: 5px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

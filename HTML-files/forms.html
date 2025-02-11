@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="/HTML-files/CSS-files/forms.css">
+</head>
+<body>
+     <!-- Poem Name -->
+  <h1>Ozymandias</h1>
+  <!-- Poet's Name -->
+ <h3>by Percy Bysshe Shelley</h3> 
+  <!-- Poem -->
+ <p>
+      I met a traveller from an antique land,<br />
+      Who said — “Two vast and trunkless legs of stone<br />
+      Stand in the desert.... Near them, on the sand,<br />
+      Half sunk, a shattered visage lies, whose frown,<br />
+      And wrinkled lip, and sneer of cold command,<br />
+      Tell that its sculptor well those passions read<br />
+      Which yet survive, stamped on these lifeless things,<br />
+      The hand that mocked them, and the heart that fed;<br />
+      And on the pedestal, these words appear:<br />
+      My name is <span>Ozymandias</span>, King of Kings;<br />
+      Look on my Works, ye Mighty, and despair!<br />
+      Nothing beside remains. Round the decay<br />
+      Of that colossal Wreck, boundless and bare<br />
+      The lone and level sands stretch far away.”
+  </p>
+  <hr />
+  <h4>
+      Read up more about the poem on
+      <a href="https://en.wikipedia.org/wiki/Ozymandias" target="_blank">Wikipedia</a>
+  </h4>
+  <textarea placeholder="Leave your comments here..."></textarea><br /><br />
+  <button>Comment</button> 
+
+
+
+
+    <h1 id="mainTopic">CSS Practice</h1>
+    <h3>Let's learn about selectors.</h3>
+
+    Paragraphs
+    <p class="paragraph">There are multiple selectors in CSS.</p>
+    <p class="paragraph">Some of them include class selector, id selector, etc.</p>
+    <p class="paragraph">And we can also combine these too.</p>
+
+
+    <div>
+        <h5>Did you like the practice set?</h5>
+        <input type="checkbox" id="yes"/>
+        <label class="label" for="yes">Yes</label><br/>
+        <button>Learn next!</button>
+    </div>
+</body>
+</html>  
+
+<h1>Practice Question 7</h1>
+    <form action="https://www.youtube.com/results"></form>
+    <input type="text" name="search_query" placeholder="search in google">
+    <button type="submit">Search</button>
+
+    <h3>REGISTRATION FORM</h3>
+    <form action="/action">
+        <div>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </div>
+        <div>
+            <label for="gender">please select gender</label>
+            <select name="gender" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of service?
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">Yes I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+<br>
+    <hr>
+<br>
+    <form action="/action">
+        <label for="name">
+            Name
+            <input type="text" placeholder="Enter you name" id="name">
+        </label>
+        <br><br>
+        <label for="gender">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label>
+
+        <br><br>
+        <hr>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option>Select an Option</option>
+        <option value="india">India</option>
+        <option value="USA">USA</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Canada">Canada</option>
+        </select>
+        
+        <br><br>
+        <label for="message">Message:</label> <br>
+        <textarea name="message" id="message" cols="20" rows="10"></textarea>
+        <br><br>
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Subscribe?</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+<br>
+    <hr>
+    <br>
+    <h1>Feedback Form</h1>
+    <form action="/action">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Write your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Write you email">
+        <br><br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <br><br>
+        <label for="rating">Rate us our of 5:</label>
+        <br>
+        <input type="radio" name="rating" id="one" value="one">
+        <label for="one">1</label><br>
+        <input type="radio" name="rating" id="two" value="two">
+        <label for="two">2</label><br>
+        <input type="radio" name="rating" id="three" value="three">
+        <label for="three">3</label> <br>
+        <input type="radio" name="rating" id="four" value="four">
+        <label for="four">4</label><br>
+        <input type="radio" name="rating" id="five" value="five">
+        <label for="five">5</label><br>
+        <br><br>
+        <button>Send you message!</button>
+    </form>
+</body>
+</html>

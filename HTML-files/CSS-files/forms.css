@@ -1,0 +1,77 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    color: red;
+    line-height: 30px;
+}
+
+h3{
+    color: black;
+}
+
+h4 a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: #000;
+}
+
+span{
+    text-decoration: underline;
+}
+
+
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mainTopic{
+    color: blue;
+}
+
+.paragraph{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(odd){
+    color: yellow;
+}
+
+h1::first-letter{color:red;}
+
+.label:active{
+    color: darkgreen;
+}
