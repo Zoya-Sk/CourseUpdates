@@ -28,6 +28,7 @@ This folder contains JavaScript practice, divided into different parts:
 - 📁 **JSpart4/** - Loops (for, while, for-of), break statements, To-Do app, tables.  
 - 📁 **JSpart5/** - Objects, math operations, random numbers, guessing game.  
 - 📁 **JSpart6/** - Functions, high-order functions, function expressions, scope, methods.  
+- 📁 **JSpart7/** - this, Arrow Functions, setInterval Function, setTimeout Function, this with Arrow Function, try - catch blocks.
 
 ---
 
