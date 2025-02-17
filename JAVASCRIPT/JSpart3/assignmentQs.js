@@ -62,8 +62,14 @@ Output: true
 Input: str = "JavaScript", index = 0  
 Output: false
  */
-let str2 = "Javascript";
+let str2 = "ApNaCoLlEgE";
+let idx = 4; 
 
+if(str2[idx] == str2[idx].toLowerCase()){
+    // console.log("character is lowercase");
+} else{
+    // console.log("character is not lowercase");
+}
 
 
 
@@ -77,6 +83,9 @@ Example:
 Input: str = "   Hello World!   "  
 Output: "Hello World!"
  */
+let trimStr = "     hello world     ";
+// console.log(`Original String is ${trimStr}`);
+// console.log(`String without spaces is ${trimStr.trim()}`);
 
 
 
@@ -91,3 +100,10 @@ Output: true
 Input: arr = [10, 20, 30, 40], element = 50  
 Output: false
  */
+let array = ["hello",'a',23,64,99,-6]; 
+let item = 64;
+if(arr.indexOf(item) != -1){
+    console.log("element exists in array");
+} else{
+    console.log("element doesn't exist in array");
+}
