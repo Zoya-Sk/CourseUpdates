@@ -29,7 +29,8 @@ This folder contains JavaScript practice, divided into different parts:
 - 📁 **JSpart5/** - Objects, math operations, random numbers, guessing game.  
 - 📁 **JSpart6/** - Functions, high-order functions, function expressions, scope, methods.  
 - 📁 **JSpart7/** - this, Arrow Functions, setInterval Function, setTimeout Function, this with Arrow Function, try - catch blocks, practiceQuestions & assignment questions.
-
+- 📁 **JSpart8/** - arrMethods.js, assignmentQs.js, defaultParam.js, destructuring.js, destructuringObj.js, every.js, map&filter.js, maxInArr.js, practiceQs.js, reast.js, reduce.js, spread.js, spreadLiterals.js.
+- 📁 **JSpart9/** - `/assests` - contains images, `app.js`, `index.html`, `style.css`
 ---
 
 ## 📌 Learning Plan & Updates  
