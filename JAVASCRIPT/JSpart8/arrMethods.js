@@ -1,3 +1,8 @@
+/*
+    ARRAY METHODS: forEach, map, filter, some, every, reduce.
+*/
+
+
 // let arr = [1,2,3,4,5,6];
 
 // let print = function(el){
@@ -10,7 +15,7 @@
 // });
 
 // arr.forEach((el)=>{
-//     console.log(el)
+//     console.log(el);
 // });
 
 
