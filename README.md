@@ -9,6 +9,14 @@ I update this repo **every alternate day** as I learn new topics and complete as
 
 ## 📂 Folder Structure  
 
+### 🔹 **BACK-END/**
+Contains Folders and files - modules...
+
+- 📁 **figletDir/** -`index.js`,`package-lock.json`,`package.json`.
+- 📁 **Fruits/** - `apple.js`,`banana.js`,`mango.js`,`index.js`.
+- 📁 **myProject/** - `package-lock.json`,`package.json`.
+- Contains Files - `.gitignore`,`math.js`,`package.json`,`script.js`.
+
 ### 🔹 **BOOTSTRAP/**  
 Contains Bootstrap components, forms, grid system, and more.  
 
@@ -31,6 +39,7 @@ This folder contains JavaScript practice, divided into different parts:
 - 📁 **JSpart7/** - this, Arrow Functions, setInterval Function, setTimeout Function, this with Arrow Function, try - catch blocks, practiceQuestions & assignment questions.
 - 📁 **JSpart8/** - arrMethods.js, assignmentQs.js, defaultParam.js, destructuring.js, destructuringObj.js, every.js, map&filter.js, maxInArr.js, practiceQs.js, reast.js, reduce.js, spread.js, spreadLiterals.js.
 - 📁 **JSpart9/** - `/assests` - **contains** *images*, `app.js`, `index.html`, `style.css`.`/practiceQs` - **contains ->** `index2.html`,`style2.css`,`script2.js`. `/assignmentQs`, - **contains ->** `index3.html`,`style3.css`,`script3.js`.
+- 📁 **JSpart10** - `index.html`,`style.css`,`script.js`.
 ---
 
 ## 📌 Learning Plan & Updates  
