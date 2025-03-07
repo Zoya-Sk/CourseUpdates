@@ -1,15 +1,15 @@
 {
-  "name": "myproject",
+  "name": "backend3-nodeejs",
   "version": "1.0.0",
-  "description": "This is First Backend Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Zoya Shaikh",
   "license": "ISC",
+  "description": "Using EJS for the first time - for learning purpose",
   "dependencies": {
-    "figlet": "^1.8.0",
-    "give-me-a-joke": "^0.5.1"
+    "express": "^4.21.2"
   }
 }
