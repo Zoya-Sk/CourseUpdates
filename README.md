@@ -9,13 +9,22 @@ I update this repo **every alternate day** as I learn new topics and complete as
 
 ## 📂 Folder Structure  
 
-### 🔹 **BACK-END/**
+### 🔹 **BACKEND1-node.js/**
 Contains Folders and files - modules...
 
 - 📁 **figletDir/** -`index.js`,`package-lock.json`,`package.json`.
 - 📁 **Fruits/** - `apple.js`,`banana.js`,`mango.js`,`index.js`.
 - 📁 **myProject/** - `package-lock.json`,`package.json`.
 - Contains Files - `.gitignore`,`math.js`,`package.json`,`script.js`.
+
+### 🔹 **BACKENDnodeExpress/**
+Contains Folders and files - modules...
+- Contains Files - `.gitignore`,`package.json`,`package-lock.json`,`index.js`.
+
+
+### 🔹 **BACKEND3 nodeEJS/**
+Contains Folders and files - modules...
+......
 
 ### 🔹 **BOOTSTRAP/**  
 Contains Bootstrap components, forms, grid system, and more.  
