@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    color: azure;
+  }
+
+  button {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-left: 350px;
+    margin-bottom: 10px;
+    transition: font-size;
+  }
+  button:hover{
+    transition: all ease-in-out 0.2s;
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(66, 144, 118);
+  }
+
+  img {
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  

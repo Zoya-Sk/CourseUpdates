@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "Using EJS for the first time - for learning purpose",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.2"
   }
 }
