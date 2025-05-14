@@ -62,7 +62,7 @@ Hello to aman
 
 
 
-// const fruitsInfo = require("./Fruits");
+// const fruitsInfo = require("./Fruits"); // Requiring a directory
 
 // console.log(fruitsInfo);
 
@@ -70,7 +70,8 @@ Hello to aman
 // console.log(fruitsInfo[1].color);
 
 
-// USING IMPORT 
+// USING IMPORT -> it gives us choice to import selective things which is not available in 'require'
+// NOTE : before using it in the main directory we need a package.json file , where we add "type": "module".
 import {sum,PI} from "./math.js";
 console.log(sum(1,2));
 console.log(PI);
