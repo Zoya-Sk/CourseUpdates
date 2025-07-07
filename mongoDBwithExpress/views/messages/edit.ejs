@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Message</title>
+</head>
+<body>
+    <h1>Edit Message</h1>
+    <form action="/messages/<%= message._id %>?_method=PUT" method="POST">
+        <label>From: <input type="text" name="from" id="" value="<%= message.from %>" required></label>
+        <br><br>
+        <label>To: <input type="text" name="to" id="" value="<%= message.to %>" required></label>
+        <br><br>
+        <label>Message: <textarea name="message" id="" required><%= message.message %></textarea></label>
+        <br><br>
+        <button type="submit">Update</button>
+
+    </form>
+    <br>
+
+    <a href="/messages">⬅ Back to All Messages</a>
+</body>
+</html>

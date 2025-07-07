@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Messages</title>
+</head>
+<body>
+    <h1>📨 All Messages</h1>
+
+    <a href="/messages/new">Send New Messages</a>
+    <ul>
+        <% messages.forEach(msg => { %>
+            <li>
+                <strong><%= msg.from %></strong> ➡ <%= msg.to %>:
+                <em><%= msg.message %></em>
+                <small>(<%= msg.createdAt.toLocaleString() %>)</small>
+
+                <!-- edit button -->
+                 <a href="/messages/<%= msg._id %>/edit">✍️ Edit</a>
+            </li>
+            <form action="/messages/<%= msg._id %>?_method=DELETE" method="POST" style="display: inline;">
+                <button type="submit">🗑️ Delete Button</button>
+            </form>
+
+     <%  }); %>
+    </ul>
+</body>
+</html>

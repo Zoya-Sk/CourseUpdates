@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sned New Message</title>
+</head>
+<body>
+    <h1>Send a New Message</h1>
+    <form action="/messages" method="POST">
+        <label>From: <input type="text" name="from" required></label>
+        <br><br>
+        <label>To: <input type="text" name="to" id="" required></label>
+        <br><br>
+        <label>Message: <textarea name="message" id="" required></textarea></label>
+        <br><br>
+        <button type="submit">Send</button>
+    </form>
+    <br>
+    <a href="/messages">⬅ Back to All Messages</a>
+</body>
+</html>
