@@ -6,6 +6,7 @@ const methodOverride = require("method-override");
 const mongoose = require("mongoose");
 const path = require("path");
 const exp = require("constants");
+const session = require("express-session");
 
 const app = express();
 
@@ -26,9 +27,19 @@ app.set("views",path.join(__dirname,"views"));
 app.use(express.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
 
+// Sessions -> to remember logged in user
+app.use(session({
+    secret:"thisshouldbebettersecret!",
+    resave:false,
+    saveUninitialized:false
+}));
+
 // routes
 const messageRoutes = require("./routes/messages");
 app.use("/messages", messageRoutes);
+const userRoutes = require("./routes/users");
+app.use(userRoutes);
+
 
 // root route
 app.get("/", (req,res)=>{
