@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const User = require("../models/user");
+const user = require("../models/user");
 
 // GET: Show registration form
 router.get("/register",(req,res)=>{
@@ -41,5 +41,12 @@ router.post("/login", async(req,res)=>{
     req.session.userId = foundUser._id;
     res.redirect("/messages");
 });
+
+// GET: Logout user
+router.get("/logout",(req,res)=>{
+    req.session.destroy();  // clear the session
+    res.redirect("/login");
+});
+
 
 module.exports = router;
